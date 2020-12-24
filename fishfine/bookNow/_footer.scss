@@ -1,0 +1,33 @@
+// ESTILOS DEL FOOTER
+footer {
+    .social {
+        text-align: center;
+        padding: 20px 0;
+        a {
+            padding: 10px;
+            display: inline-block;
+            margin: 0 20px;
+            width: 50px;
+            height: 50px;
+            font-size: 22px;
+            color: white;
+            background: black;
+            border-radius: 100%;
+            i {
+                height: 100%;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+            &.facebook {
+                background: #3b5998;
+            }
+            &.youtube {
+                background: #cd201f;
+            }
+            &.instagram {
+                background: #833ab4;
+            }
+        }
+    }
+}

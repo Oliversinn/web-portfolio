@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-size: 16px;
+  background: white;
+}
+
+.navbar.navbar-light.top-nav-collapse {
+  background-color: white;
+}
+.navbar.navbar-light.top-nav-collapse .navbar-brand,
+.navbar.navbar-light.top-nav-collapse .navbar-brand:hover {
+  color: #0066E3 !important;
+}
+.navbar.navbar-light.top-nav-collapse a {
+  color: black !important;
+}
+.navbar.navbar-light.top-nav-collapse .navbar-nav .nav-item .nav-link {
+  color: #0066E3 !important;
+}
+.navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .navbar-brand:hover {
+  color: white !important;
+  font-weight: 600;
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: white !important;
+}
+
+.banner {
+  background: linear-gradient(rgba(63, 127, 191, 0.7), rgba(63, 127, 191, 0.7)), url("./bookNowBanner.webp"), url("./bookNowBanner.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.banner .textos {
+  color: white;
+  text-align: center;
+  padding: 250px 0;
+}
+.banner .textos h1.primera_linea,
+.banner .textos h2.segunda_linea {
+  font-weight: 300 !important;
+}
+.banner .textos h1.primera_linea {
+  font-size: 55px !important;
+  line-height: 55px !important;
+  margin-bottom: 30px !important;
+}
+.banner .textos h1.primera_linea span {
+  font-weight: 600 !important;
+}
+.banner .textos h2.segunda_linea {
+  font-size: 25px !important;
+  line-height: 25px !important;
+  margin-bottom: 60px !important;
+}
+.banner .textos .contenedor-btns a {
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: white;
+  padding: 12px 0;
+  font-weight: 600;
+  width: 235px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+.banner .textos .contenedor-btns a:hover {
+  text-decoration: none;
+  background: #fff !important;
+  color: #4f4f4f !important;
+}
+
+.adventures {
+  margin-top: -80px;
+}
+
+footer .social {
+  text-align: center;
+  padding: 20px 0;
+}
+footer .social a {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  color: white;
+  background: black;
+  border-radius: 100%;
+}
+footer .social a i {
+  height: 100%;
+}
+footer .social a:hover {
+  text-decoration: none;
+}
+footer .social a.facebook {
+  background: #3b5998;
+}
+footer .social a.youtube {
+  background: #cd201f;
+}
+footer .social a.instagram {
+  background: #833ab4;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: white;
+  }
+  .navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .navbar-brand:hover {
+    color: #0066E3 !important;
+    font-weight: 600;
+  }
+  .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: black !important;
+  }
+
+  .adventures {
+    margin-top: -50px;
+  }
+}
+
+/*# sourceMappingURL=bookNow.css.map */

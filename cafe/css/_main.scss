@@ -1,0 +1,9 @@
+.main {
+    background: url('../img/bg-textura.png') #fff;
+    background-repeat: repeat;
+    @import 'acerca-de';
+    @import 'menu';
+    @import 'galeria';
+    @import 'ubicacion';
+    @import 'mapa';
+}

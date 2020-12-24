@@ -1,0 +1,30 @@
+// ESTILOS PARA LA NAVBAR
+.navbar {
+    &.navbar-light {
+        &.top-nav-collapse {
+            background-color: white;
+            .navbar-brand,
+            .navbar-brand:hover {
+                color:  $primary!important;
+            }
+            a {
+                color: black!important;
+            }
+            .navbar-nav .nav-item .nav-link{
+                color: $primary!important;
+            }
+        }
+        .navbar-brand,
+        .navbar-brand:hover {
+            color:  white!important;
+            font-weight: 600;
+        }
+        .navbar-nav{
+            .nav-item{
+                .nav-link {
+                    color: white!important; 
+                }
+            }
+        }
+    }
+}

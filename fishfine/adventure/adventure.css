@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-size: 16px;
+  background: white;
+}
+
+.navbar.navbar-light.top-nav-collapse {
+  background-color: white;
+}
+.navbar.navbar-light.top-nav-collapse .navbar-brand,
+.navbar.navbar-light.top-nav-collapse .navbar-brand:hover {
+  color: #0066E3 !important;
+}
+.navbar.navbar-light.top-nav-collapse a {
+  color: black !important;
+}
+.navbar.navbar-light.top-nav-collapse .navbar-nav .nav-item .nav-link {
+  color: #0066E3 !important;
+}
+.navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .navbar-brand:hover {
+  color: #0066E3 !important;
+  font-weight: 600;
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #0066E3 !important;
+}
+
+main {
+  margin-top: 150px;
+}
+main h1 {
+  font-weight: 600;
+}
+main .adventure_info {
+  font-weight: 600;
+}
+main img {
+  flex-shrink: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+main .adventure_description {
+  padding: 40px;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+main .book_online .adventure_name {
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+main .information {
+  margin-top: 50px;
+}
+
+footer .social {
+  text-align: center;
+  padding: 20px 0;
+}
+footer .social a {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  color: white;
+  background: black;
+  border-radius: 100%;
+}
+footer .social a i {
+  height: 100%;
+}
+footer .social a:hover {
+  text-decoration: none;
+}
+footer .social a.facebook {
+  background: #3b5998;
+}
+footer .social a.youtube {
+  background: #cd201f;
+}
+footer .social a.instagram {
+  background: #833ab4;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: white;
+  }
+  .navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .navbar-brand:hover {
+    color: #0066E3 !important;
+    font-weight: 600;
+  }
+  .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #0066E3 !important;
+  }
+
+  main {
+    margin-top: 80px;
+  }
+  main .adventure_description {
+    padding: 0 20px 20px 20px;
+  }
+}
+
+/*# sourceMappingURL=adventure.css.map */

@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: white;
+        &.navbar-light {
+            .navbar-brand,
+            .navbar-brand:hover {
+                color:  $primary!important;
+                font-weight: 600;
+            }
+            .navbar-nav .nav-item .nav-link {
+                color: black !important;
+            }
+        }
+    }
+    .about_us {
+        .foto {
+            margin-top: -50px;
+            width: 100%;
+            max-height: 250px;
+        }
+        article {
+            margin-top: 1rem;
+            margin-bottom: 0;
+            padding-top: 0;
+        }
+    }
+    .learn_more {
+        article {
+            h3 {
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+main {
+    margin-top: 150px;
+    h1 {
+        font-weight: 600;
+    }
+    .adventure_info {
+        font-weight: 600;
+    }
+    img {
+        flex-shrink: 0;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .adventure_description {
+        padding: 40px;
+        font-size: 1.125rem;
+        line-height: 1.125rem;
+    }
+    .book_online {
+        .adventure_name {
+            font-size: 1.125rem;
+            line-height: 1.125rem;           
+        }
+    }
+    .information {
+        margin-top: 50px;
+
+    }
+}

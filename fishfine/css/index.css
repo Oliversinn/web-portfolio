@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-size: 16px;
+  background: white;
+}
+
+.navbar.navbar-light.top-nav-collapse {
+  background-color: white;
+}
+.navbar.navbar-light.top-nav-collapse .navbar-brand,
+.navbar.navbar-light.top-nav-collapse .navbar-brand:hover {
+  color: #0066E3 !important;
+}
+.navbar.navbar-light.top-nav-collapse a {
+  color: black !important;
+}
+.navbar.navbar-light.top-nav-collapse .navbar-nav .nav-item .nav-link {
+  color: #0066E3 !important;
+}
+.navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .navbar-brand:hover {
+  color: white !important;
+  font-weight: 600;
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: white !important;
+}
+
+.banner {
+  background: linear-gradient(rgba(63, 127, 191, 0.7), rgba(63, 127, 191, 0.7)), url("../assets/images/banner.webp"), url("../assets/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.banner .textos {
+  color: white;
+  text-align: center;
+  padding: 250px 0;
+}
+.banner .textos h1.primera_linea,
+.banner .textos h2.segunda_linea {
+  font-weight: 300 !important;
+}
+.banner .textos h1.primera_linea {
+  font-size: 55px !important;
+  line-height: 55px !important;
+  margin-bottom: 30px !important;
+}
+.banner .textos h1.primera_linea span {
+  font-weight: 600 !important;
+}
+.banner .textos h2.segunda_linea {
+  font-size: 25px !important;
+  line-height: 25px !important;
+  margin-bottom: 60px !important;
+}
+.banner .textos .contenedor-btns a {
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: white;
+  padding: 12px 0;
+  font-weight: 600;
+  width: 235px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+.banner .textos .contenedor-btns a:hover {
+  text-decoration: none;
+  background: #fff !important;
+  color: #4f4f4f !important;
+}
+
+.about_us .foto {
+  margin-top: -80px;
+  background-image: url("../assets/images/fisherman.webp"), url("../assets/images/fisherman.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  max-height: 500px;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+}
+.about_us article {
+  z-index: 0;
+  background: white;
+  padding: 40px;
+  position: relative;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.about_us article h2 {
+  color: #24558E;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+.about_us article p {
+  font-size: 1.125rem;
+  padding-bottom: 1.25rem;
+}
+
+.learn_more img {
+  z-index: 1;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+}
+.learn_more h2 {
+  color: #24558E;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+.learn_more article {
+  background: white;
+  margin-top: 1rem;
+}
+.learn_more article h3 {
+  color: #308BC7;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+.learn_more article p {
+  font-size: 1.125rem;
+}
+
+footer .social {
+  text-align: center;
+  padding: 20px 0;
+}
+footer .social a {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  color: white;
+  background: black;
+  border-radius: 100%;
+}
+footer .social a i {
+  height: 100%;
+}
+footer .social a:hover {
+  text-decoration: none;
+}
+footer .social a.facebook {
+  background: #3b5998;
+}
+footer .social a.youtube {
+  background: #cd201f;
+}
+footer .social a.instagram {
+  background: #833ab4;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: white;
+  }
+  .navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .navbar-brand:hover {
+    color: #0066E3 !important;
+    font-weight: 600;
+  }
+  .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: black !important;
+  }
+
+  .about_us .foto {
+    margin-top: -50px;
+    width: 100%;
+    max-height: 250px;
+  }
+  .about_us article {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+
+  .learn_more article h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
